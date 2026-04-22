@@ -143,4 +143,5 @@ Consulta [ROADMAP.md](ROADMAP.md) para ver el plan actual.
 - Sigue el repositorio para enterarte de los hitos de apertura.
 - Usa Issues y Discussions para compartir escenarios, necesidades de integración y feedback.
 - Consulta [CONTRIBUTING.md](CONTRIBUTING.md) para ver cómo colaborar durante esta etapa de vista previa.
+- Para temas de seguridad, sigue el proceso de reporte privado descrito en [SECURITY.md](SECURITY.md).
 - Antes de planificar una adopción real, toma como referencia la hoja de ruta y las publicaciones oficiales.

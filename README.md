@@ -131,4 +131,5 @@ See [ROADMAP.md](ROADMAP.md) for the current release path.
 - Watch this repository for public release milestones.
 - Use Issues and Discussions to share scenarios, integration needs, and feedback.
 - See [CONTRIBUTING.md](CONTRIBUTING.md) for the current preview-stage collaboration rules.
+- Follow [SECURITY.md](SECURITY.md) for private security reporting.
 - Follow the roadmap before planning production adoption.

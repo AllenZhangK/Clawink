@@ -143,4 +143,5 @@ Clawink 的核心机制建立在两条打通但分离的主链上：
 - 关注仓库，跟踪公开发布节点。
 - 通过 Issues 或 Discussions 提交场景需求、接入诉求和反馈。
 - 当前阶段的协作方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 安全问题请按 [SECURITY.md](SECURITY.md) 中的私下报告方式处理。
 - 在正式代码开放前，请以路线图和公开说明为准评估接入计划。

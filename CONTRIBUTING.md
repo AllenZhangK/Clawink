@@ -22,6 +22,8 @@ Please use:
 - **Issues** for concrete problems, requests, and gaps
 - **Discussions** for broader scenarios, product direction, and open-ended feedback
 
+For security-sensitive reports, use the private reporting path described in [SECURITY.md](SECURITY.md).
+
 ## What To Expect In The Preview Stage
 
 During the preview stage:
