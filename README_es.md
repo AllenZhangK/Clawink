@@ -46,6 +46,8 @@ La mayoría de los sistemas de negocio no fallan por falta de funciones. Fallan 
 
 Los usuarios suelen tener que entender menús, flujos, permisos y reglas operativas antes de poder aprovechar realmente el sistema. Clawink no pone otra interfaz de chat encima de esa complejidad. Organiza la capacidad del sistema como una capa operable por IA para que la gente pase de "primero aprender el sistema" a "expresar directamente el objetivo".
 
+Si tu equipo no tiene todavía capacidad para construir desde cero su propia capa de producto con IA, Clawink es una vía más pragmática. Al conectar Clawink a tu sistema existente, puedes heredar más rápido la base de agentes de OpenClaw, su cadena principal de planificación y ejecución y su sistema de extensibilidad, para que tu sistema empiece antes a estar listo para ser operado por IA.
+
 Clawink se apoya en dos líneas coordinadas:
 
 - Línea de planificación: lee documentación, estructura capacidades, propone flujos, los valida y publica activos listos para runtime.

@@ -44,6 +44,8 @@ Most business systems do not suffer from a lack of features. They suffer from fr
 
 Users often have to decode menus, flows, permissions, and operating rules before the system becomes truly usable. Clawink is designed to change that. It turns system capability into an AI-operable layer so people can move from "learn the system first" to "state the goal directly."
 
+If your team does not have the bandwidth to build its own AI product layer from scratch, Clawink is the more pragmatic path. Connect Clawink to your existing system, and you can inherit the OpenClaw agent foundation, the planning-and-execution chain, and the extension model much faster.
+
 Clawink is built around two coordinated rails:
 
 - Planning rail: reads docs, structures capabilities, drafts workflows, validates them, and publishes runtime-ready assets.
