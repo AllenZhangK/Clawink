@@ -27,7 +27,10 @@
 
 <p align="center">
   <a href="#why-clawink-es">Por qué Clawink</a> ·
+  <a href="#highlights-es">Puntos clave</a> ·
   <a href="#architecture-es">Arquitectura</a> ·
+  <a href="#from-connection-to-control-es">De la conexión a la operación</a> ·
+  <a href="#teams-and-scenarios-es">Equipos</a> ·
   <a href="#status-es">Estado actual</a> ·
   <a href="#roadmap-es">Hoja de ruta</a> ·
   <a href="#community-es">Comunidad</a>
@@ -50,6 +53,29 @@ Clawink se apoya en dos líneas coordinadas:
 
 Por eso Clawink no es solo una carcasa de chat. Es una capa operativa para sistemas de negocio reales.
 
+<a id="highlights-es"></a>
+
+## Puntos clave
+
+Si quieres captar primero las diferencias principales de Clawink, empieza por estas tres:
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <strong>Arquitectura de dos líneas</strong><br />
+      La línea de planificación genera y publica activos listos para runtime. La línea conversacional consume solo activos ya publicados.
+    </td>
+    <td valign="top" width="33%">
+      <strong>Vía rápida para sistemas existentes</strong><br />
+      No hace falta reconstruir desde cero toda una capa de producto con IA. Conecta Clawink a tu sistema actual y aprovecha antes la base de OpenClaw.
+    </td>
+    <td valign="top" width="33%">
+      <strong>Ejecución controlada y observable</strong><br />
+      Las acciones de alto riesgo siguen `preview -> confirm -> submit`, mientras la traza de ejecución y la revisión de resultados siguen visibles.
+    </td>
+  </tr>
+</table>
+
 <a id="architecture-es"></a>
 
 ## Arquitectura
@@ -60,13 +86,38 @@ La línea de planificación genera activos revisados. La línea de ejecución us
   <img src="assets/clawink_arch_en.png" alt="Clawink architecture diagram" width="1400" />
 </p>
 
+<a id="from-connection-to-control-es"></a>
+
+## De la conexión a la operación
+
+1. **Conectar el sistema**: importa Swagger, OpenAPI o Markdown y completa la autenticación para llegar a capacidades reales.
+2. **Publicar activos operativos**: convierte APIs, acciones de página y dependencias de negocio en flujos y activos de capacidad listos para runtime.
+3. **Dejar que la IA opere**: los usuarios expresan objetivos y Clawink se encarga del enrutamiento, la vista previa, la confirmación, la ejecución y el resultado.
+
+## Lo que realmente obtienes
+
+- **Un espacio de trabajo de IA capaz de asumir sistemas de negocio**: conexión, planificación, ejecución, autenticación, observabilidad y gobierno en una misma superficie.
+- **Una capa de producto para usuarios reales**: el usuario expresa un objetivo y Clawink lo traduce en consultas, ejecuciones y resultados del sistema.
+- **Una consola operativa para equipos de negocio**: el resultado de la planificación queda como flujos, activos, estados de publicación y registros, no como prompts aislados.
+- **Una base estable para equipos de ingeniería**: puedes ampliar modelos, Skills, MCP e integraciones sin rehacer la cadena principal de ejecución.
+
+<a id="teams-and-scenarios-es"></a>
+
+## Equipos y escenarios
+
+- **Equipos de producto**: quieren convertir un back office, una herramienta interna o un SaaS en un producto de IA conversacional y ejecutable.
+- **Equipos con UX compleja**: quieren que los usuarios expresen objetivos sin aprender menús, flujos y reglas operativas complicadas.
+- **Equipos de plataforma e integración**: quieren concentrar varios sistemas, paneles administrativos y APIs en una sola entrada operativa con IA.
+- **Equipos orientados a la ejecución**: quieren llevar la IA más allá de explicar el sistema y permitirle consultar, previsualizar, confirmar y ejecutar.
+- **Equipos de entrega y gobierno**: quieren mantener control de riesgo, autenticación, visibilidad y trazabilidad mientras la IA realiza trabajo real.
+
 <a id="status-es"></a>
 
 ## Estado actual
 
 Este repositorio es la vista previa pública de Clawink.
 
-- Por ahora publica solo la visión del producto, la arquitectura, la hoja de ruta y los recursos de marca.
+- Por ahora publica la visión del producto, la arquitectura, la hoja de ruta y los recursos de marca.
 - El runtime principal y el código del producto siguen en el repositorio interno mientras el modelo del producto termina de estabilizarse.
 - La liberación pública del código llegará por etapas mediante una sincronización unidireccional desde el repositorio interno.
 

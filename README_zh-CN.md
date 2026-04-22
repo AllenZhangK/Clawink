@@ -27,7 +27,10 @@
 
 <p align="center">
   <a href="#why-clawink-zh">为什么是 Clawink</a> ·
+  <a href="#highlights-zh">特色速览</a> ·
   <a href="#architecture-zh">架构图</a> ·
+  <a href="#from-connection-to-control-zh">从接入到接管</a> ·
+  <a href="#teams-and-scenarios-zh">适用团队</a> ·
   <a href="#status-zh">当前状态</a> ·
   <a href="#roadmap-zh">开放路线</a> ·
   <a href="#community-zh">社区参与</a>
@@ -50,6 +53,29 @@ Clawink 的核心机制建立在两条打通但分离的主链上：
 
 正因为这两条主链是分离的，Clawink 才不是简单的聊天壳，而是面向真实业务系统的 AI 操作层。
 
+<a id="highlights-zh"></a>
+
+## 特色速览
+
+如果你想先抓住 Clawink 最关键的差异，可以先看这三点：
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <strong>双主链设计</strong><br />
+      规划线负责沉淀和发布运行时可用资产，对话运行线只消费已发布资产，不在会话现场临时拼装整套能力。
+    </td>
+    <td valign="top" width="33%">
+      <strong>快速接管现有系统</strong><br />
+      不需要从零重做 AI 产品层，把 Clawink 接入现有系统，就能更快继承 OpenClaw 的核心机制与扩展体系。
+    </td>
+    <td valign="top" width="33%">
+      <strong>执行可控可观测</strong><br />
+      高风险操作统一走 `preview -> confirm -> submit`，同时保留执行链路、预算命中、工具调用和结果回看能力。
+    </td>
+  </tr>
+</table>
+
 <a id="architecture-zh"></a>
 
 ## 架构图
@@ -59,6 +85,31 @@ Clawink 的核心机制建立在两条打通但分离的主链上：
 <p align="center">
   <img src="assets/clawink_arch_zh.png" alt="Clawink 架构图" width="1400" />
 </p>
+
+<a id="from-connection-to-control-zh"></a>
+
+## 从接入到接管
+
+1. **接入系统**：导入 Swagger / OpenAPI / Markdown，补齐授权，让 Clawink 真正拿到系统能力。
+2. **沉淀能力**：把接口、页面动作和业务依赖规划成工作流与能力资产，并发布为运行时可用目录。
+3. **交给 AI 执行**：用户直接对话下达业务目标，Clawink 负责路由、预览、确认、执行和结果返回。
+
+## 你真正得到的能力
+
+- **一个可以接管业务系统的 AI 工作台**：系统接入、任务规划、运行时执行、授权、观测和治理都在同一条主链里完成。
+- **一个可以直接服务终端用户的 AI 产品层**：用户描述目标，Clawink 负责把目标落成查询、执行和结果返回。
+- **一个对业务团队友好的运营控制台**：规划结果不是一次性的 prompt 结果，而是工作流、能力资产、发布状态、执行日志这类可持续运营的资产。
+- **一个对技术团队友好的稳定底座**：系统可以持续扩展、切换模型、补充 Skill、增加 MCP，而不用把主链推倒重来。
+
+<a id="teams-and-scenarios-zh"></a>
+
+## 适用团队与场景
+
+- **产品团队**：想把传统后台、内部系统或 SaaS 产品升级成真正可对话、可执行的 AI 产品。
+- **体验复杂的系统团队**：想让用户不再学习复杂菜单、页面流转和操作规则，而是直接表达业务目标。
+- **平台与集成团队**：想把多个系统、多个管理端、多个 API 入口收敛成统一 AI 操作入口。
+- **执行型产品团队**：想让 AI 不只负责“解释系统”，还能够稳定查询、预览、确认和执行系统动作。
+- **交付与治理团队**：想在 AI 执行业务任务时，依然保留风险控制、授权管理、执行观测和审计能力。
 
 <a id="status-zh"></a>
 
@@ -92,4 +143,3 @@ Clawink 的核心机制建立在两条打通但分离的主链上：
 - 关注仓库，跟踪公开发布节点。
 - 通过 Issues 或 Discussions 提交场景需求、接入诉求和反馈。
 - 在正式代码开放前，请以路线图和公开说明为准评估接入计划。
-

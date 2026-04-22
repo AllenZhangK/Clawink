@@ -27,7 +27,10 @@
 
 <p align="center">
   <a href="#why-clawink">Why Clawink</a> ·
+  <a href="#highlights">Highlights</a> ·
   <a href="#architecture">Architecture</a> ·
+  <a href="#from-connection-to-control">How It Works</a> ·
+  <a href="#teams-and-scenarios">Teams</a> ·
   <a href="#status">Current Status</a> ·
   <a href="#roadmap">Roadmap</a> ·
   <a href="#community">Community</a>
@@ -48,6 +51,27 @@ Clawink is built around two coordinated rails:
 
 That split is what makes Clawink more than a chat shell. It is an operating layer for real business systems.
 
+## Highlights
+
+If you only want the key differences first, start here:
+
+<table>
+  <tr>
+    <td valign="top" width="33%">
+      <strong>Dual-rail architecture</strong><br />
+      The planning rail produces and publishes runtime-ready assets. The conversation rail consumes only published assets instead of assembling capabilities live in the session.
+    </td>
+    <td valign="top" width="33%">
+      <strong>Fast path for existing systems</strong><br />
+      You do not need to rebuild a full AI product layer from scratch. Connect Clawink to your existing system and inherit the OpenClaw core mechanisms and extension model faster.
+    </td>
+    <td valign="top" width="33%">
+      <strong>Controlled and observable execution</strong><br />
+      High-risk actions follow `preview -> confirm -> submit`, while execution traces, budget hits, tool calls, and result playback stay visible.
+    </td>
+  </tr>
+</table>
+
 ## Architecture
 
 The planning rail and runtime rail are intentionally separated. Planning produces reviewed assets. Runtime executes only published assets under preview, confirmation, and operational guardrails.
@@ -56,11 +80,36 @@ The planning rail and runtime rail are intentionally separated. Planning produce
   <img src="assets/clawink_arch_en.png" alt="Clawink architecture diagram" width="1400" />
 </p>
 
+<a id="from-connection-to-control"></a>
+
+## From Connection To Control
+
+1. **Connect the system**: import Swagger, OpenAPI, or Markdown, then complete auth so Clawink can access real capabilities.
+2. **Publish operational assets**: turn APIs, page actions, and business dependencies into workflow and capability assets, then publish them as runtime-ready assets.
+3. **Let AI operate it**: users speak in goals, and Clawink handles routing, preview, confirmation, execution, and result shaping.
+
+## What You Actually Get
+
+- **An AI workspace that can take over business systems**: connection, planning, runtime execution, auth, observability, and governance live on one operating surface.
+- **A product layer for real end users**: users state goals, and Clawink turns them into system queries, executions, and results.
+- **An operations console for business teams**: planning output becomes workflows, capability assets, publish states, and execution logs instead of one-off prompt output.
+- **A stable base for engineering teams**: add models, Skills, MCP, and integrations without rewriting the main execution chain.
+
+<a id="teams-and-scenarios"></a>
+
+## Teams And Scenarios
+
+- **Product teams**: turning a traditional back office, internal tool, or SaaS product into a truly conversational and executable AI product.
+- **Teams with complex system UX**: letting users express business goals directly instead of learning complicated menus, flows, and operating rules.
+- **Platform and integration teams**: consolidating multiple systems, admin panels, and API surfaces into one AI operation entry.
+- **Execution-oriented product teams**: moving AI beyond explanation into real querying, previewing, confirming, and executing.
+- **Delivery and governance teams**: keeping risk control, auth management, execution visibility, and auditability while AI performs business work.
+
 ## Current Status
 
 This repository is the public preview for Clawink.
 
-- It currently publishes product overview, architecture, and roadmap.
+- It currently publishes product overview, architecture, roadmap, and brand assets.
 - Core runtime and product code are still private while the product model is being stabilized.
 - Public code release will happen in staged drops through a one-way sync process from the internal repository.
 
@@ -82,4 +131,3 @@ See [ROADMAP.md](ROADMAP.md) for the current release path.
 - Watch this repository for public release milestones.
 - Use Issues and Discussions to share scenarios, integration needs, and feedback.
 - Follow the roadmap before planning production adoption.
-
