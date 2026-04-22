@@ -1,79 +1,130 @@
 # Clawink Open-Source Roadmap
 
-This roadmap describes how Clawink is intended to move from a private product codebase to a staged public release.
+Clawink is being opened in stages.
 
-It is a release plan, not a contract. Scope and order can change as the product model stabilizes.
+This roadmap is meant to help the community understand what is available now, what is coming next, and how the public repository will evolve over time.
 
-## Release Principles
+It is a directional plan, not a fixed contract. Scope and ordering can change as the product model stabilizes.
 
-- The internal repository remains the only source of truth.
-- Public releases are published through one-way sync only.
-- Public code is released through explicit white-list profiles.
-- Each public phase must remain self-contained and maintainable.
+## Current Stage
 
-## Phase 0: Public Preview
+The public repository is currently in the **Preview** stage.
 
-Current scope:
+What is public today:
 
 - Product overview
 - Architecture diagrams
-- Release roadmap
-- Brand assets and repository metadata
+- Brand assets
+- Open-source roadmap
 
-Goal:
+What is not public yet:
 
-- Explain what Clawink is
-- Set correct expectations
-- Collect community feedback before opening runtime code
+- Core runtime code
+- Product implementation details
+- Full developer workflow
+- Public contribution workflow for source code
 
-## Phase 1: Public Core Slice
+The goal of this stage is to explain the product clearly, set the right expectations, and collect feedback before opening code in larger slices.
 
-Planned scope:
+## Near-Term Focus
+
+The next public milestone is the first **Public Core Slice**.
+
+Current preparation priorities:
+
+- Define a clean public code boundary
+- Separate public-facing modules from internal-only structure
+- Make the first public release understandable and maintainable
+- Keep the first release small enough to support properly
+
+The first code drop is expected to focus on a minimal but coherent surface rather than broad coverage.
+
+## Release Track
+
+### Stage 0: Preview
+
+Scope:
+
+- README and project positioning
+- Architecture and operating model
+- Brand assets and public metadata
+
+Outcome:
+
+- The project can be understood before code is opened
+- Community expectations stay aligned with the actual release state
+
+### Stage 1: Public Core Slice
+
+Target scope:
 
 - Selected runtime modules
 - Packaging metadata
-- Minimal development workflow
-- Basic CI for public code
+- Minimal developer workflow
+- Basic CI for the public repository
 
-Goal:
+Outcome:
 
-- Make the first public code release understandable and runnable
-- Keep the surface area intentionally small
+- The first code release is small, readable, and supportable
+- External developers can begin to understand the runtime surface
 
-## Phase 2: Public Extension Surface
+### Stage 2: Public Extension Surface
 
-Planned scope:
+Target scope:
 
 - Selected Skills
 - Integration examples
 - Public-facing extension docs
-- Clearer external contribution boundaries
+- Clearer boundaries for external contributions
 
-Goal:
+Outcome:
 
-- Let external contributors understand where extensions belong
-- Expose stable integration seams before widening the code release
+- External builders can see where extensions belong
+- The public project starts to gain stable integration seams
 
-## Phase 3: Broader Runtime Release
+### Stage 3: Broader Runtime Release
 
-Planned scope:
+Target scope:
 
 - Wider runtime modules
-- Stronger test coverage in public CI
-- Better release notes and migration guidance
+- Better public test coverage
+- Stronger release notes and migration guidance
 
-Goal:
+Outcome:
 
-- Expand the open-source surface without exposing unfinished internal structure
+- The open-source surface grows without exposing unfinished internal structure
+- The project becomes easier to evaluate and adopt technically
 
-## Contribution Path
+## How Public Releases Work
+
+Clawink uses a **one-way sync** model:
+
+- The internal repository remains the source of truth
+- Public releases are published from approved white-list profiles
+- The public repository receives staged snapshots, not raw internal development history
+
+This keeps the public surface cleaner and reduces the risk of exposing unstable or internal-only structure.
+
+## Community Participation
+
+What helps most right now:
+
+- Share target scenarios and system types you want Clawink to support
+- Open Issues for product feedback, integration needs, and release expectations
+- Follow the public milestones instead of assuming the repository is already feature-complete
 
 Before broader code release:
 
-- Use Issues and Discussions for feedback and scenario sharing
-- Community patches are reviewed manually and re-applied in the internal repository
+- Feedback and use cases are more valuable than code patches
+- Source-code contributions are handled manually and may first be applied in the internal repository
 
 After broader code release:
 
-- Contribution rules will be documented in the public repository
+- Public contribution rules will be documented in the repository
 
+## Release Principles
+
+- Release in slices, not all at once
+- Prefer clean boundaries over broad exposure
+- Keep every public phase self-contained and maintainable
+- Publish only what can be explained and supported responsibly
