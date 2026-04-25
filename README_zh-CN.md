@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/clawink_logo.png" alt="Clawink — OpenClaw for Business Systems" width="800" />
+  <img src="assets/clawink_readme.png" alt="Clawink — OpenClaw for Business Systems" width="800" />
 </p>
 
 <p align="center">
