@@ -29,6 +29,7 @@
   <a href="#why-clawink-zh">为什么是 Clawink</a> ·
   <a href="#highlights-zh">特色速览</a> ·
   <a href="#architecture-zh">架构图</a> ·
+  <a href="#webui-zh">WebUI</a> ·
   <a href="#from-connection-to-control-zh">从接入到接管</a> ·
   <a href="#teams-and-scenarios-zh">适用团队</a> ·
   <a href="#status-zh">当前状态</a> ·
@@ -86,6 +87,16 @@ Clawink 的核心机制建立在两条打通但分离的主链上：
 
 <p align="center">
   <img src="assets/clawink_arch_zh.png" alt="Clawink 架构图" width="1400" />
+</p>
+
+<a id="webui-zh"></a>
+
+## WebUI
+
+Clawink 提供完整的 WebUI，用于配置产品接入、管理模型服务、发布运行时可用能力与 Workflow，并在对话中执行真实业务任务，同时保留任务状态、Token 消耗与执行观测。
+
+<p align="center">
+  <img src="assets/clawink_webui.png" alt="Clawink WebUI" width="1400" />
 </p>
 
 <a id="from-connection-to-control-zh"></a>

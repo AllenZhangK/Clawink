@@ -29,6 +29,7 @@
   <a href="#why-clawink">Why Clawink</a> ·
   <a href="#highlights">Highlights</a> ·
   <a href="#architecture">Architecture</a> ·
+  <a href="#webui">WebUI</a> ·
   <a href="#from-connection-to-control">How It Works</a> ·
   <a href="#teams-and-scenarios">Teams</a> ·
   <a href="#status">Current Status</a> ·
@@ -80,6 +81,16 @@ The planning rail and runtime rail are intentionally separated. Planning produce
 
 <p align="center">
   <img src="assets/clawink_arch_en.png" alt="Clawink architecture diagram" width="1400" />
+</p>
+
+<a id="webui"></a>
+
+## WebUI
+
+Clawink ships with a full WebUI for configuring product integrations, managing model access, publishing runtime-ready capabilities and workflows, and running business conversations with execution observability.
+
+<p align="center">
+  <img src="assets/clawink_webui.png" alt="Clawink WebUI" width="1400" />
 </p>
 
 <a id="from-connection-to-control"></a>
