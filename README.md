@@ -101,25 +101,37 @@ The WebUI is organized around the operational surfaces teams use every day: prod
   <tr>
     <td width="50%" valign="top">
       <strong>Capability catalog</strong><br />
-      Review runtime-ready capabilities, inspect API bindings, risk level, confirmation policy, and request/response structure before publishing them for conversation execution.<br /><br />
-      <img src="assets/clawink_capability.png" alt="Clawink capability catalog" />
+      Review runtime-ready capabilities, inspect API bindings, risk level, confirmation policy, and request/response structure before publishing them for conversation execution.
     </td>
     <td width="50%" valign="top">
       <strong>Workflow Studio</strong><br />
-      Design multi-step workflows with API nodes, confirmation nodes, execution metadata, and field mappings so write operations stay explicit and controllable.<br /><br />
-      <img src="assets/clawink_workflow.png" alt="Clawink Workflow Studio" />
+      Design multi-step workflows with API nodes, confirmation nodes, execution metadata, and field mappings so write operations stay explicit and controllable.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/clawink_capability.png" alt="Clawink capability catalog" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/clawink_workflow.png" alt="Clawink Workflow Studio" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <strong>Model configuration</strong><br />
-      Manage providers and models through the AI Gateway, switch the system model, and keep model routing independent from business runtime configuration.<br /><br />
-      <img src="assets/clawink_models.png" alt="Clawink model configuration" />
+      Manage providers and models through the AI Gateway, switch the system model, and keep model routing independent from business runtime configuration.
     </td>
     <td width="50%" valign="top">
       <strong>Channel access</strong><br />
-      Connect WeChat, Feishu, and other channels so the same conversation control loop can serve Web and external messaging users consistently.<br /><br />
-      <img src="assets/clawink_channel.png" alt="Clawink channel access" />
+      Connect WeChat, Feishu, and other channels so the same conversation control loop can serve Web and external messaging users consistently.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/clawink_models.png" alt="Clawink model configuration" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/clawink_channel.png" alt="Clawink channel access" width="100%" />
     </td>
   </tr>
 </table>
