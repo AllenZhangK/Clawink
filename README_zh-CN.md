@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/clawink_readme.png" alt="Clawink — OpenClaw for Business Systems" width="800" />
+  <img src="assets/clawink_readme.png" alt="Clawink — OpenClaw for Business Systems" width="640" />
 </p>
 
 <p align="center">
@@ -98,6 +98,37 @@ Clawink 提供完整的 WebUI，用于配置产品接入、管理模型服务、
 <p align="center">
   <img src="assets/clawink_webui.png" alt="Clawink WebUI" width="1400" />
 </p>
+
+### 产品工作台预览
+
+WebUI 围绕实际运营链路组织：产品能力管理、Workflow 编排、模型路由配置和通道接通都在同一套工作台内完成。
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>能力目录</strong><br />
+      查看运行时可用能力，检查 API 绑定、风险等级、确认策略和请求/响应结构，再发布给对话运行线使用。<br /><br />
+      <img src="assets/clawink_capability.png" alt="Clawink 能力目录" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Workflow Studio</strong><br />
+      编排多步骤 Workflow，维护 API 节点、确认节点、执行元数据和字段映射，让写操作保持清晰、可控。<br /><br />
+      <img src="assets/clawink_workflow.png" alt="Clawink Workflow Studio" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>模型配置</strong><br />
+      通过 AI Gateway 管理厂商与模型，切换系统主模型，并让模型路由与业务运行配置解耦。<br /><br />
+      <img src="assets/clawink_models.png" alt="Clawink 模型配置" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>通道接通</strong><br />
+      接通微信、飞书等外部通道，让 Web 和外部消息渠道复用同一套稳定的对话控制机制。<br /><br />
+      <img src="assets/clawink_channel.png" alt="Clawink 通道接通" />
+    </td>
+  </tr>
+</table>
 
 <a id="from-connection-to-control-zh"></a>
 

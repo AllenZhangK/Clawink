@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/clawink_readme.png" alt="Clawink — OpenClaw for Business Systems" width="800" />
+  <img src="assets/clawink_readme.png" alt="Clawink — OpenClaw for Business Systems" width="640" />
 </p>
 
 <p align="center">
@@ -92,6 +92,37 @@ Clawink ships with a full WebUI for configuring product integrations, managing m
 <p align="center">
   <img src="assets/clawink_webui.png" alt="Clawink WebUI" width="1400" />
 </p>
+
+### Product Workspace Preview
+
+The WebUI is organized around the operational surfaces teams use every day: product capability management, workflow authoring, model routing, and channel access.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Capability catalog</strong><br />
+      Review runtime-ready capabilities, inspect API bindings, risk level, confirmation policy, and request/response structure before publishing them for conversation execution.<br /><br />
+      <img src="assets/clawink_capability.png" alt="Clawink capability catalog" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Workflow Studio</strong><br />
+      Design multi-step workflows with API nodes, confirmation nodes, execution metadata, and field mappings so write operations stay explicit and controllable.<br /><br />
+      <img src="assets/clawink_workflow.png" alt="Clawink Workflow Studio" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Model configuration</strong><br />
+      Manage providers and models through the AI Gateway, switch the system model, and keep model routing independent from business runtime configuration.<br /><br />
+      <img src="assets/clawink_models.png" alt="Clawink model configuration" />
+    </td>
+    <td width="50%" valign="top">
+      <strong>Channel access</strong><br />
+      Connect WeChat, Feishu, and other channels so the same conversation control loop can serve Web and external messaging users consistently.<br /><br />
+      <img src="assets/clawink_channel.png" alt="Clawink channel access" />
+    </td>
+  </tr>
+</table>
 
 <a id="from-connection-to-control"></a>
 
